@@ -13,15 +13,15 @@
     // cross_btn.innerHTML = "x";
     // IpElem.appendChild(cross_btn);
 
-    // function displayRecipeInfo(recipe){
-    //     recipe_info.innerHTML = `<h2>${recipe.Name}</h2>
-    //     <h3>Ingredients</h3>
-    //     <ul>${recipe.Ingredients.map((indgredient) =>{
-    //         return "<li>" + indgredient + "</li>";
-    //     }).join(" ")}</ul>
-    //     <h3> Instructions</h3>
-    //     <div>${recipe.Method}</div>`
-    // }
+    function displayRecipeInfo(recipe){
+        recipe_info.innerHTML = `<h2>${recipe.Name}</h2>
+        <h3>Ingredients</h3>
+        <ul>${recipe.Ingredients.map((indgredient) =>{
+            return "<li>" + indgredient + "</li>";
+        }).join(" ")}</ul>
+        <h3> Instructions</h3>
+        <div>${recipe.Method}</div>`
+    }
 
 
     function showRecipes(results){
