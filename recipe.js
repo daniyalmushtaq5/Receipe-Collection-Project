@@ -48,9 +48,9 @@
         showRecipes(results);
     }
     btnElem.addEventListener("click", searchfun);
-    // IpElem.addEventListener('keydown', function(event) {
-    //     if (event.keyCode === 13) { // Check if the Enter key was pressed
-    //       searchfun(); // Call the search function
-    //     }
+    IpElem.addEventListener('keydown', function(event) {
+        if (event.keyCode === 13) { // Check if the Enter key was pressed
+          searchfun(); // Call the search function
+        }
       });
 })();
